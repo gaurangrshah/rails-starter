@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # Whitelist one hostname
+  config.hosts << "3000-ac200ee9-27ed-424d-9c71-fd9090907aca.ws-us02.gitpod.io"
+
   # In the development environment your application's code is reloaded on
   # every request. This slows down response time but is perfect for development
   # since you don't have to restart the web server when you make code changes.
